@@ -1,0 +1,12 @@
+Pommes
+3.15
+Fromage
+1.69
+Pain
+2.99
+Yaourt
+2.19
+Chimay
+2.48
+Chocolat
+3.99

@@ -1,0 +1,834 @@
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 394 (rsyslogd) on client request.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: logrotate.service: Succeeded.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Finished Rotate log files.
+Mar 20 15:34:34 DEBDEBDEB vboxadd[399]: VirtualBox Guest Additions: Starting.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Finished vboxadd.service.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Starting GNOME Display Manager...
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Starting vboxadd-service.service...
+Mar 20 15:34:34 DEBDEBDEB vboxadd-service[651]: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 20 15:34:34 DEBDEBDEB vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777611] 14:34:34.329539 main     VBoxService 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:22) release log
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777611] 14:34:34.329541 main     Log opened 2025-03-20T14:34:34.329536000Z
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777641] 14:34:34.329629 main     OS Product: Linux
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777674] 14:34:34.329663 main     OS Release: 5.10.0-32-amd64
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777706] 14:34:34.329696 main     OS Version: #1 SMP Debian 5.10.223-1 (2024-08-10)
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777746] 14:34:34.329712 main     Executable: /opt/VBoxGuestAdditions-7.1.6/sbin/VBoxService
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777746] 14:34:34.329712 main     Process ID: 658
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.777746] 14:34:34.329713 main     Package type: LINUX_64BITS_GENERIC
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.779317] 14:34:34.331262 main     7.1.6 r167084 started. Verbose level = 0
+Mar 20 15:34:34 DEBDEBDEB vboxadd-service.sh: VirtualBox Guest Addition service started.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Started vboxadd-service.service.
+Mar 20 15:34:34 DEBDEBDEB kernel: [    3.785894] 14:34:34.337830 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Started GNOME Display Manager.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Received SIGRTMIN+21 from PID 152 (plymouthd).
+Mar 20 15:34:34 DEBDEBDEB avahi-daemon[385]: Server startup complete. Host name is DEBDEBDEB.local. Local service cookie is 2325935226.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Created slice User Slice of UID 116.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Starting User Runtime Directory /run/user/116...
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Finished User Runtime Directory /run/user/116.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Starting User Manager for UID 116...
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: man-db.service: Succeeded.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Finished Daily man-db regeneration.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Queued start job for default target Main User Target.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Created slice User Application Slice.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Reached target Paths.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Reached target Timers.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting D-Bus User Message Bus Socket.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on GnuPG network certificate management daemon.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on Multimedia System.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on debconf communication socket.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on Sound System.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Listening on D-Bus User Message Bus Socket.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Reached target Sockets.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Reached target Basic System.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Started User Manager for UID 116.
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Started Session c1 of user Debian-gdm.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started Multimedia Service.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Sound Service...
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Tracker metadata extractor...
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Tracker file system data miner...
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.26' (uid=116 pid=706 comm="/usr/bin/pipewire ")
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully called chroot.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully dropped privileges.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully limited resources.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Running.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Canary thread running.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Watchdog thread running.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started D-Bus User Message Bus.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 706 of process 706 owned by '116' high priority at nice level -11.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 1 threads of 1 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 1 threads of 1 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 1 threads of 1 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 711 of process 706 owned by '116' RT at priority 20.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 2 threads of 1 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 707 of process 707 owned by '116' high priority at nice level -11.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 3 threads of 2 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Set scheduler policy to SCHED_IDLE
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Setting priority nice level to 19
+Mar 20 15:34:34 DEBDEBDEB tracker-extract[708]: Set scheduler policy to SCHED_IDLE
+Mar 20 15:34:34 DEBDEBDEB tracker-extract[708]: Setting priority nice level to 19
+Mar 20 15:34:34 DEBDEBDEB pipewire[706]: Failed to receive portal pid: org.freedesktop.DBus.Error.NameHasNoOwner: Could not get PID of name 'org.freedesktop.portal.Desktop': no such name
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Virtual filesystem service...
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 724 of process 724 owned by '116' high priority at nice level -11.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 4 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 4 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 4 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 725 of process 724 owned by '116' RT at priority 20.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 5 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gtk.vfs.Daemon'
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started Virtual filesystem service.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB tracker-miner-f[709]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Virtual filesystem service - disk device monitor...
+Mar 20 15:34:34 DEBDEBDEB gnome-session[727]: gnome-session-binary[727]: WARNING: Failed to upload environment to systemd: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+Mar 20 15:34:34 DEBDEBDEB gnome-session-binary[727]: WARNING: Failed to upload environment to systemd: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+Mar 20 15:34:34 DEBDEBDEB pulseaudio[707]: Disabling timer-based scheduling because running inside a VM.
+Mar 20 15:34:34 DEBDEBDEB gnome-session[727]: gnome-session-binary[727]: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+Mar 20 15:34:34 DEBDEBDEB gnome-session-binary[727]: WARNING: Failed to reset failed state of units: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started Virtual filesystem service - disk device monitor.
+Mar 20 15:34:34 DEBDEBDEB gnome-session[727]: gnome-session-binary[727]: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+Mar 20 15:34:34 DEBDEBDEB gnome-session-binary[727]: WARNING: Falling back to non-systemd startup procedure due to error: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.freedesktop.systemd1" does not exist
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 5 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 762 of process 707 owned by '116' RT at priority 5.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 6 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB pulseaudio[707]: Disabling timer-based scheduling because running inside a VM.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 6 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 763 of process 707 owned by '116' RT at priority 5.
+Mar 20 15:34:34 DEBDEBDEB rtkit-daemon[712]: Supervising 7 threads of 3 processes of 1 users.
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.35' (uid=116 pid=707 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo")
+Mar 20 15:34:34 DEBDEBDEB systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started Sound Service.
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating service name='org.gnome.OnlineAccounts' requested by ':1.11' (uid=116 pid=772 comm="/usr/libexec/gvfs-goa-volume-monitor ")
+Mar 20 15:34:34 DEBDEBDEB goa-daemon[776]: goa-daemon version 3.38.0 starting
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating service name='org.gnome.Identity' requested by ':1.12' (uid=116 pid=776 comm="/usr/libexec/goa-daemon ")
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gnome.OnlineAccounts'
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar 20 15:34:34 DEBDEBDEB systemd[691]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 20 15:34:34 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gnome.Identity'
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Starting Virtual filesystem service - digital camera monitor...
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Started Virtual filesystem service - digital camera monitor.
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.37' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:35 DEBDEBDEB systemd[1]: Starting Daemon for power management...
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.UPower'
+Mar 20 15:34:35 DEBDEBDEB systemd[1]: Started Daemon for power management.
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.5' (uid=116 pid=709 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Starting Tracker metadata database store and lookup manager...
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Started Tracker file system data miner.
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[716]: [session uid=116 pid=716] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Started Tracker metadata database store and lookup manager.
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Started Tracker metadata extractor.
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Reached target Main User Target.
+Mar 20 15:34:35 DEBDEBDEB systemd[691]: Startup finished in 753ms.
+Mar 20 15:34:35 DEBDEBDEB org.gnome.Shell.desktop[767]: VMware: No 3D enabled (0, Success).
+Mar 20 15:34:35 DEBDEBDEB org.gnome.Shell.desktop[767]: libEGL warning: DRI2: failed to create dri screen
+Mar 20 15:34:35 DEBDEBDEB org.gnome.Shell.desktop[767]: VMware: No 3D enabled (0, Success).
+Mar 20 15:34:35 DEBDEBDEB org.gnome.Shell.desktop[767]: libEGL warning: DRI2: failed to create dri screen
+Mar 20 15:34:35 DEBDEBDEB org.gnome.Shell.desktop[767]: VMware: No 3D enabled (0, Success).
+Mar 20 15:34:35 DEBDEBDEB gnome-shell[767]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Do not want to use software renderer (llvmpipe (LLVM 11.0.1, 256 bits)), falling back to CPU copy path
+Mar 20 15:34:35 DEBDEBDEB gnome-shell[767]: Boot VGA GPU /dev/dri/card0 selected as primary
+Mar 20 15:34:35 DEBDEBDEB gnome-shell[767]: Disabling DMA buffer screen sharing for driver 'vmwgfx'.
+Mar 20 15:34:35 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:35 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'org.a11y.Bus'
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8461] device (enp0s3): carrier: link connected
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8464] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8477] policy: auto-activating connection 'Wired connection 1' (f08f236c-b6f9-4e6d-a297-c15150a6fd39)
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8480] device (enp0s3): Activation: starting connection 'Wired connection 1' (f08f236c-b6f9-4e6d-a297-c15150a6fd39)
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8481] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8483] manager: NetworkManager state is now CONNECTING
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8485] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8492] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8494] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 20 15:34:35 DEBDEBDEB kernel: [    5.293076] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 20 15:34:35 DEBDEBDEB kernel: [    5.293457] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Mar 20 15:34:35 DEBDEBDEB avahi-daemon[385]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fea2:35d.
+Mar 20 15:34:35 DEBDEBDEB avahi-daemon[385]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar 20 15:34:35 DEBDEBDEB avahi-daemon[385]: Registering new address record for fe80::a00:27ff:fea2:35d on enp0s3.*.
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8637] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.15
+Mar 20 15:34:35 DEBDEBDEB avahi-daemon[385]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar 20 15:34:35 DEBDEBDEB avahi-daemon[385]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar 20 15:34:35 DEBDEBDEB avahi-daemon[385]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8664] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8688] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8693] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8700] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8723] manager: NetworkManager state is now CONNECTED_SITE
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8735] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service' requested by ':1.7' (uid=0 pid=390 comm="/usr/sbin/NetworkManager --no-daemon ")
+Mar 20 15:34:35 DEBDEBDEB dbus-daemon[389]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8806] device (enp0s3): Activation: successful, device activated.
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8826] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 20 15:34:35 DEBDEBDEB NetworkManager[390]: <info>  [1742481275.8856] manager: startup complete
+Mar 20 15:34:35 DEBDEBDEB gnome-shell[767]: Getting parental controls for user 116
+Mar 20 15:34:36 DEBDEBDEB gnome-shell[767]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Mar 20 15:34:36 DEBDEBDEB gnome-shell[767]: Will monitor session c1
+Mar 20 15:34:36 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.38' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:36 DEBDEBDEB systemd[1]: Starting Locale Service...
+Mar 20 15:34:36 DEBDEBDEB gnome-shell[767]: Called enable_unredirect_for_display while unredirection is enabled.
+Mar 20 15:34:36 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.locale1'
+Mar 20 15:34:36 DEBDEBDEB systemd[1]: Started Locale Service.
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.freedesktop.portal.IBus' requested by ':1.6' (uid=116 pid=861 comm="ibus-daemon --panel disable ")
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 20 15:34:36 DEBDEBDEB ModemManager[455]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Mar 20 15:34:36 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.38' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:36 DEBDEBDEB systemd[1]: Starting Location Lookup Service...
+Mar 20 15:34:36 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.38' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:36 DEBDEBDEB systemd[1]: Starting PackageKit Daemon...
+Mar 20 15:34:36 DEBDEBDEB PackageKit: daemon start
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[841]: dbus-daemon[841]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:36 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Mar 20 15:34:36 DEBDEBDEB systemd[1]: Started Location Lookup Service.
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[841]: dbus-daemon[841]: Successfully activated service 'org.a11y.atspi.Registry'
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[895]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Mar 20 15:34:36 DEBDEBDEB gnome-shell[767]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Mar 20 15:34:36 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Mar 20 15:34:36 DEBDEBDEB systemd[1]: Started PackageKit Daemon.
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'org.gnome.Shell.Notifications'
+Mar 20 15:34:36 DEBDEBDEB kernel: [    6.213217] rfkill: input handler disabled
+Mar 20 15:34:36 DEBDEBDEB org.gnome.Shell.desktop[844]: glamor: 'wl_drm' not supported
+Mar 20 15:34:36 DEBDEBDEB org.gnome.Shell.desktop[844]: Missing Wayland requirements for glamor GBM backend
+Mar 20 15:34:36 DEBDEBDEB org.gnome.Shell.desktop[844]: Failed to initialize glamor, falling back to sw
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.freedesktop.systemd1' requested by ':1.11' (uid=116 pid=897 comm="/usr/libexec/gsd-sharing ")
+Mar 20 15:34:36 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Mar 20 15:34:36 DEBDEBDEB gsd-sharing[897]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Mar 20 15:34:36 DEBDEBDEB gsd-sharing[897]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Mar 20 15:34:36 DEBDEBDEB gsd-sharing[897]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Mar 20 15:34:37 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.realmd' unit='realmd.service' requested by ':1.38' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Starting Realm and Domain Configuration...
+Mar 20 15:34:37 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.realmd'
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Started Realm and Domain Configuration.
+Mar 20 15:34:37 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.52' (uid=116 pid=906 comm="/usr/libexec/gsd-color ")
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Mar 20 15:34:37 DEBDEBDEB colord[1014]: failed to get edid data: EDID length is too small
+Mar 20 15:34:37 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Started Manage, Install and Generate Color Profiles.
+Mar 20 15:34:37 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.gnome.Shell.Screencast' requested by ':1.25' (uid=116 pid=923 comm="/usr/libexec/gsd-media-keys ")
+Mar 20 15:34:37 DEBDEBDEB avahi-daemon[385]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fea2:35d.
+Mar 20 15:34:37 DEBDEBDEB NetworkManager[390]: <info>  [1742481277.3458] policy: set 'Wired connection 1' (enp0s3) as default for IPv6 routing and DNS
+Mar 20 15:34:37 DEBDEBDEB avahi-daemon[385]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fd00::a00:27ff:fea2:35d.
+Mar 20 15:34:37 DEBDEBDEB avahi-daemon[385]: Registering new address record for fd00::a00:27ff:fea2:35d on enp0s3.*.
+Mar 20 15:34:37 DEBDEBDEB avahi-daemon[385]: Withdrawing address record for fe80::a00:27ff:fea2:35d on enp0s3.
+Mar 20 15:34:37 DEBDEBDEB gsd-media-keys[923]: Failed to grab accelerator for keybinding settings:hibernate
+Mar 20 15:34:37 DEBDEBDEB gsd-media-keys[923]: Failed to grab accelerator for keybinding settings:playback-repeat
+Mar 20 15:34:37 DEBDEBDEB gsd-media-keys[923]: Failed to grab accelerator for keybinding settings:playback-random
+Mar 20 15:34:37 DEBDEBDEB gsd-media-keys[923]: Failed to grab accelerator for keybinding settings:rfkill
+Mar 20 15:34:37 DEBDEBDEB gsd-color[906]: failed to get edid: unable to get EDID for output
+Mar 20 15:34:37 DEBDEBDEB gsd-color[906]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Mar 20 15:34:37 DEBDEBDEB gnome-session-binary[727]: Entering running state
+Mar 20 15:34:37 DEBDEBDEB xbrlapi.desktop[1037]: openConnection: connect: No such file or directory
+Mar 20 15:34:37 DEBDEBDEB xbrlapi.desktop[1037]: cannot connect to braille devices daemon brltty at :0
+Mar 20 15:34:37 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='org.freedesktop.portal.IBus' requested by ':1.35' (uid=116 pid=1033 comm="ibus-daemon --panel disable -r --xim ")
+Mar 20 15:34:37 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 20 15:34:37 DEBDEBDEB gnome-shell[767]: Registering session with GDM
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Received SIGRTMIN+21 from PID 152 (plymouthd).
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Finished Hold until boot process finishes up.
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Reached target Multi-User System.
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Reached target Graphical Interface.
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Mar 20 15:34:37 DEBDEBDEB systemd[1]: Startup finished in 2.020s (kernel) + 5.249s (userspace) = 7.269s.
+Mar 20 15:34:37 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'org.gnome.Shell.Screencast'
+Mar 20 15:34:39 DEBDEBDEB avahi-daemon[385]: Registering new address record for fd00::99c1:452b:9d0c:81ca on enp0s3.*.
+Mar 20 15:34:45 DEBDEBDEB systemd[691]: tracker-extract.service: Succeeded.
+Mar 20 15:34:46 DEBDEBDEB systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 20 15:34:47 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Activating service name='ca.desrt.dconf' requested by ':1.3' (uid=116 pid=767 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:47 DEBDEBDEB /usr/libexec/gdm-wayland-session[723]: dbus-daemon[723]: [session uid=116 pid=723] Successfully activated service 'ca.desrt.dconf'
+Mar 20 15:34:47 DEBDEBDEB org.gnome.Shell.desktop[1079]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Mar 20 15:34:47 DEBDEBDEB org.gnome.Shell.desktop[1079]: > Warning:          Unsupported maximum keycode 569, clipping.
+Mar 20 15:34:47 DEBDEBDEB org.gnome.Shell.desktop[1079]: >                   X11 cannot support keycodes above 255.
+Mar 20 15:34:47 DEBDEBDEB org.gnome.Shell.desktop[1079]: Errors from xkbcomp are not fatal to the X server
+Mar 20 15:34:48 DEBDEBDEB systemd[1]: Created slice User Slice of UID 1000.
+Mar 20 15:34:48 DEBDEBDEB systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar 20 15:34:48 DEBDEBDEB systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mar 20 15:34:48 DEBDEBDEB systemd[1]: Starting User Manager for UID 1000...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Queued start job for default target Main User Target.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Created slice User Application Slice.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Paths.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Timers.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting D-Bus User Message Bus Socket.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on GnuPG network certificate management daemon.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on Multimedia System.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on debconf communication socket.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on Sound System.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Listening on D-Bus User Message Bus Socket.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Sockets.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Basic System.
+Mar 20 15:34:49 DEBDEBDEB systemd[1]: Started User Manager for UID 1000.
+Mar 20 15:34:49 DEBDEBDEB systemd[1]: Started Session 2 of user vboxuser.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Multimedia Service.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Sound Service...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Tracker metadata extractor...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Tracker file system data miner...
+Mar 20 15:34:49 DEBDEBDEB tracker-extract[1102]: Set scheduler policy to SCHED_IDLE
+Mar 20 15:34:49 DEBDEBDEB tracker-extract[1102]: Setting priority nice level to 19
+Mar 20 15:34:49 DEBDEBDEB tracker-miner-f[1103]: Set scheduler policy to SCHED_IDLE
+Mar 20 15:34:49 DEBDEBDEB tracker-miner-f[1103]: Setting priority nice level to 19
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started D-Bus User Message Bus.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Virtual filesystem service...
+Mar 20 15:34:49 DEBDEBDEB kernel: [   18.531503] rfkill: input handler enabled
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.Daemon'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Virtual filesystem service.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1100 of process 1100 owned by '1000' high priority at nice level -11.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 8 threads of 4 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB pipewire[1100]: Failed to receive portal pid: org.freedesktop.DBus.Error.NameHasNoOwner: Could not get PID of name 'org.freedesktop.portal.Desktop': no such name
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1101 of process 1101 owned by '1000' high priority at nice level -11.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 9 threads of 5 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 9 threads of 5 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Virtual filesystem service - disk device monitor...
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1122 of process 1122 owned by '1000' high priority at nice level -11.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 10 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 10 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 10 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB pulseaudio[1101]: Disabling timer-based scheduling because running inside a VM.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Virtual filesystem service - disk device monitor.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1105 of process 1100 owned by '1000' RT at priority 20.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 11 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 11 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 11 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.OnlineAccounts' requested by ':1.11' (uid=1000 pid=1171 comm="/usr/libexec/gvfs-goa-volume-monitor ")
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1123 of process 1122 owned by '1000' RT at priority 20.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 12 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB goa-daemon[1178]: goa-daemon version 3.38.0 starting
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1158 of process 1101 owned by '1000' RT at priority 5.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 13 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB pulseaudio[1101]: Disabling timer-based scheduling because running inside a VM.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 13 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Successfully made thread 1188 of process 1101 owned by '1000' RT at priority 5.
+Mar 20 15:34:49 DEBDEBDEB rtkit-daemon[712]: Supervising 14 threads of 6 processes of 2 users.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Sound Service.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Identity' requested by ':1.12' (uid=1000 pid=1178 comm="/usr/libexec/goa-daemon ")
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.OnlineAccounts'
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Identity'
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Virtual filesystem service - digital camera monitor...
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Virtual filesystem service - digital camera monitor.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Created slice app-gnome\x2dsession\x2dmanager.slice.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Created slice User Core Session Slice.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target GNOME Wayland Session.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target GNOME Shell.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Monitor Session leader for GNOME Session...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started OpenSSH Agent.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Session services which should run early before the graphical session is brought up.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Monitor Session leader for GNOME Session.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Tasks to be run before GNOME Session starts.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting GNOME Session Manager (session: gnome)...
+Mar 20 15:34:49 DEBDEBDEB agent-launch[1227]: dbus-update-activation-environment: setting SSH_AUTH_SOCK=/run/user/1000/openssh_agent
+Mar 20 15:34:49 DEBDEBDEB agent-launch[1227]: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=openssh
+Mar 20 15:34:49 DEBDEBDEB agent-launch[1223]: SSH_AUTH_SOCK=/run/user/1000/openssh_agent; export SSH_AUTH_SOCK;
+Mar 20 15:34:49 DEBDEBDEB agent-launch[1223]: echo Agent pid 1223;
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: app-gnome-gnome\x2dkeyring\x2dpkcs11-1233.scope: Failed to add PIDs to scope's control group: No such process
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: app-gnome-gnome\x2dkeyring\x2dpkcs11-1233.scope: Failed with result 'resources'.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Failed to start Application launched by gnome-session-binary.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:49 DEBDEBDEB gnome-keyring-ssh.desktop[1239]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 20 15:34:49 DEBDEBDEB gnome-keyring-secrets.desktop[1240]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started GNOME Session Manager (session: gnome).
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target GNOME Session Manager is ready.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting GNOME Shell on Wayland...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting GNOME Shell on X11...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Control process exited, code=exited, status=2/INVALIDARGUMENT
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 1.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Stopped GNOME Shell on X11.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting GNOME Shell on X11...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: app-gnome-gnome\x2dkeyring\x2dsecrets-1238.scope: Succeeded.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: app-gnome-gnome\x2dkeyring\x2dssh-1235.scope: Succeeded.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Control process exited, code=exited, status=2/INVALIDARGUMENT
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 2.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Stopped GNOME Shell on X11.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting GNOME Shell on X11...
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Control process exited, code=exited, status=2/INVALIDARGUMENT
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 3.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Stopped GNOME Shell on X11.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Start request repeated too quickly.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar 20 15:34:49 DEBDEBDEB gnome-session[1226]: gnome-session-binary[1226]: GnomeDesktop-WARNING: Could not create transient scope for PID 1241: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1241 does not exist.
+Mar 20 15:34:49 DEBDEBDEB gnome-session-binary[1226]: GnomeDesktop-WARNING: Could not create transient scope for PID 1241: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1241 does not exist.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: app-gnome-xdg\x2duser\x2ddirs-1247.scope: Succeeded.
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: VMware: No 3D enabled (0, Success).
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: libEGL warning: DRI2: failed to create dri screen
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: VMware: No 3D enabled (0, Success).
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: libEGL warning: DRI2: failed to create dri screen
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.1' (uid=1000 pid=1103 comm="/usr/libexec/tracker-miner-fs ")
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Starting Tracker metadata database store and lookup manager...
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: VMware: No 3D enabled (0, Success).
+Mar 20 15:34:49 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.freedesktop.Tracker1'
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Tracker metadata database store and lookup manager.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Tracker file system data miner.
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Do not want to use software renderer (llvmpipe (LLVM 11.0.1, 256 bits)), falling back to CPU copy path
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: Boot VGA GPU /dev/dri/card0 selected as primary
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Started Tracker metadata extractor.
+Mar 20 15:34:49 DEBDEBDEB systemd[1085]: Reached target Main User Target.
+Mar 20 15:34:49 DEBDEBDEB gnome-shell[1248]: Disabling DMA buffer screen sharing for driver 'vmwgfx'.
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Getting parental controls for user 1000
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Will monitor session 2
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Called enable_unredirect_for_display while unredirection is enabled.
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.freedesktop.portal.IBus' requested by ':1.37' (uid=1000 pid=1278 comm="ibus-daemon --panel disable ")
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting sandboxed app permission store...
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Started sandboxed app permission store.
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.42' (uid=1000 pid=1302 comm="/usr/libexec/gnome-shell-calendar-server ")
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting Evolution source registry...
+Mar 20 15:34:50 DEBDEBDEB evolution-source-registry[1308]: ** Failed to load key file at 'file:///home/vboxuser/.config/evolution/sources/system-proxy.source': Data source is missing a [Data Source] group
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Started Evolution source registry.
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.42' (uid=1000 pid=1302 comm="/usr/libexec/gnome-shell-calendar-server ")
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting Evolution calendar service...
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='ca.desrt.dconf' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'ca.desrt.dconf'
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Telepathy is not available, chat integration will be disabled.
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: firefox-esr.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Evolution.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: rhythmbox.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: libreoffice-writer.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Nautilus.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Software.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: yelp.desktop
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Started Evolution calendar service.
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: gnome-control-center.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Contacts.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Documents.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Nautilus.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Calculator.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Calendar.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Characters.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.clocks.desktop
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.45' (uid=1000 pid=1316 comm="/usr/libexec/evolution-calendar-factory ")
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.seahorse.Application.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Software.desktop
+Mar 20 15:34:50 DEBDEBDEB gnome-shell[1248]: Warning: Hiding app because parental controls not yet initialised: org.gnome.Terminal.desktop
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting Evolution address book service...
+Mar 20 15:34:50 DEBDEBDEB gnome-shell-cal[1302]: Could not load source 'system-calendar': Unable to connect to “Personal”: Cannot open calendar: Cannot parse ISC file “/home/vboxuser/.local/share/evolution/calendar/system/calendar.ics”
+Mar 20 15:34:50 DEBDEBDEB evolution-calen[1316]: e_intervaltree_destroy: assertion 'E_IS_INTERVALTREE (tree)' failed
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Started Evolution address book service.
+Mar 20 15:34:50 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Shell.Notifications' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:50 DEBDEBDEB at-spi-dbus-bus.desktop[1253]: dbus-daemon[1253]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:50 DEBDEBDEB at-spi-dbus-bus.desktop[1253]: dbus-daemon[1253]: Successfully activated service 'org.a11y.atspi.Registry'
+Mar 20 15:34:50 DEBDEBDEB at-spi-dbus-bus.desktop[1343]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Started GNOME Shell on Wayland.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Reached target GNOME Session is initialized.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: GNOME session X11 services is not active.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Dependency failed for GNOME XSettings service.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Reached target GNOME Session (session: gnome).
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Reached target GNOME XSettings target.
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting Signal initialization done to GNOME Session Manager...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME accessibility service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME color management service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME date & time service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME maintenance of expirable data service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME keyboard configuration service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME keyboard shortcuts service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME power management service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME printer notifications service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME RFKill support service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME FreeDesktop screensaver service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME file sharing service...
+Mar 20 15:34:50 DEBDEBDEB systemd[1085]: Starting GNOME smartcard service...
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Starting GNOME sound sample caching service...
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Starting GNOME USB protection service...
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Starting GNOME Wacom tablet support service...
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME accessibility service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME accessibility target.
+Mar 20 15:34:51 DEBDEBDEB NetworkManager[390]: <info>  [1742481291.1740] agent-manager: agent[decef5747c377fa9,:1.74/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 20 15:34:51 DEBDEBDEB gnome-session-binary[1226]: Entering running state
+Mar 20 15:34:51 DEBDEBDEB kernel: [   20.626795] rfkill: input handler disabled
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: gnome-session-signal-init.service: Succeeded.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Finished Signal initialization done to GNOME Session Manager.
+Mar 20 15:34:51 DEBDEBDEB at-spi2-registr[1343]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+Mar 20 15:34:51 DEBDEBDEB at-spi2-registr[1343]: Unable to register client with session manager
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME RFKill support service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME FreeDesktop screensaver service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME maintenance of expirable data service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME USB protection service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME sound sample caching service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME printer notifications service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started Application launched by gnome-session-binary.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME maintenance of expirable data target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME printer notifications target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME RFKill support target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME FreeDesktop screensaver target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME sound sample caching target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME USB protection target.
+Mar 20 15:34:51 DEBDEBDEB gnome-session[1226]: gnome-session-binary[1226]: GnomeDesktop-WARNING: Could not create transient scope for PID 1402: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1402 does not exist.
+Mar 20 15:34:51 DEBDEBDEB gnome-session-binary[1226]: GnomeDesktop-WARNING: Could not create transient scope for PID 1402: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1402 does not exist.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: app-gnome-user\x2ddirs\x2dupdate\x2dgtk-1413.scope: Succeeded.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME file sharing service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME file sharing target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME smartcard service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME smartcard target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME date & time service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME date & time target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: app-gnome-im\x2dlaunch-1432.scope: Succeeded.
+Mar 20 15:34:51 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Shell.Notifications'
+Mar 20 15:34:51 DEBDEBDEB gnome-shell[1248]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Mar 20 15:34:51 DEBDEBDEB gsd-usb-protect[1371]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.usbguard1 was not provided by any .service files
+Mar 20 15:34:51 DEBDEBDEB gnome-shell[1277]: glamor: 'wl_drm' not supported
+Mar 20 15:34:51 DEBDEBDEB gnome-shell[1277]: Missing Wayland requirements for glamor GBM backend
+Mar 20 15:34:51 DEBDEBDEB gnome-shell[1277]: Failed to initialize glamor, falling back to sw
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME keyboard configuration service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME keyboard configuration target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME color management service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME color management target.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME Wacom tablet support service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME Wacom tablet support target.
+Mar 20 15:34:51 DEBDEBDEB gsd-color[1349]: failed to get edid: unable to get EDID for output
+Mar 20 15:34:51 DEBDEBDEB gsd-color[906]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Mar 20 15:34:51 DEBDEBDEB gnome-shell[767]: Failed to set CRTC gamma: drmModeCrtcSetGamma on CRTC 38 failed: Permission denied
+Mar 20 15:34:51 DEBDEBDEB gsd-color[1349]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914634 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914637 main     Log opened 2025-03-20T14:34:51.914065000Z
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914664 main     OS Product: Linux
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914668 main     OS Release: 5.10.0-32-amd64
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914671 main     OS Version: #1 SMP Debian 5.10.223-1 (2024-08-10)
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914675 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914675 main     Process ID: 1507
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914675 main     Package type: LINUX_64BITS_GENERIC
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914681 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.914799 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.915002 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.915958 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.916022 main      Service: Shared Clipboard
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1507]: 14:34:51.916064 main      Daemonizing service ...
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Started GNOME keyboard shortcuts service.
+Mar 20 15:34:51 DEBDEBDEB systemd[1085]: Reached target GNOME keyboard shortcuts target.
+Mar 20 15:34:51 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Shell.Screencast' requested by ':1.64' (uid=1000 pid=1355 comm="/usr/libexec/gsd-media-keys ")
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954207 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954209 main     Log opened 2025-03-20T14:34:51.954202000Z
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954816 main     OS Product: Linux
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954826 main     OS Release: 5.10.0-32-amd64
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954829 main     OS Version: #1 SMP Debian 5.10.223-1 (2024-08-10)
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954841 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954841 main     Process ID: 1510
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954842 main     Package type: LINUX_64BITS_GENERIC
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.954852 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.955022 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.955283 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.957231 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.957416 main      Service: Seamless Mode Support
+Mar 20 15:34:51 DEBDEBDEB vboxclient.desktop[1510]: 14:34:51.957646 main      Daemonizing service ...
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Started GNOME power management service.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Reached target GNOME power management target.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Reached target GNOME Session.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Reached target GNOME Wayland Session (session: gnome).
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Reached target Current graphical user session.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Startup finished in 3.064s.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Reached target GNOME session X11 services.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Starting GNOME XSettings service...
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068554 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068557 main     Log opened 2025-03-20T14:34:52.068492000Z
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068590 main     OS Product: Linux
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068594 main     OS Release: 5.10.0-32-amd64
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068598 main     OS Version: #1 SMP Debian 5.10.223-1 (2024-08-10)
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068602 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068602 main     Process ID: 1530
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068602 main     Package type: LINUX_64BITS_GENERIC
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068648 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.068888 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.069262 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.071278 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.071434 main      Service: Drag'n'Drop
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1530]: 14:34:52.071632 main      Daemonizing service ...
+Mar 20 15:34:52 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.88' (uid=1000 pid=1421 comm="/usr/bin/gnome-software --gapplication-service ")
+Mar 20 15:34:52 DEBDEBDEB systemd[1]: Starting Firmware update daemon...
+Mar 20 15:34:52 DEBDEBDEB gsd-media-keys[1355]: Failed to grab accelerator for keybinding settings:playback-random
+Mar 20 15:34:52 DEBDEBDEB gsd-media-keys[1355]: Failed to grab accelerator for keybinding settings:rfkill
+Mar 20 15:34:52 DEBDEBDEB gsd-media-keys[1355]: Failed to grab accelerator for keybinding settings:hibernate
+Mar 20 15:34:52 DEBDEBDEB gsd-media-keys[1355]: Failed to grab accelerator for keybinding settings:playback-repeat
+Mar 20 15:34:52 DEBDEBDEB ibus-daemon[1278]: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.114911 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.114913 main     Log opened 2025-03-20T14:34:52.114906000Z
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116034 main     OS Product: Linux
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116050 main     OS Release: 5.10.0-32-amd64
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116054 main     OS Version: #1 SMP Debian 5.10.223-1 (2024-08-10)
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116057 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116058 main     Process ID: 1537
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116058 main     Package type: LINUX_64BITS_GENERIC
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116064 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.116255 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.117442 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.119780 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.120005 main      Service: VirtualBox host version check
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1537]: 14:34:52.120296 main      Daemonizing service ...
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[1248]: GNOME Shell started at Thu Mar 20 2025 15:34:50 GMT+0100 (CET)
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[1248]: Registering session with GDM
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[767]: Lost or failed to acquire name org.gnome.Mutter.ScreenCast
+Mar 20 15:34:52 DEBDEBDEB gnome-session[727]: gnome-session-binary[727]: WARNING: Lost name on bus: org.gnome.SessionManager
+Mar 20 15:34:52 DEBDEBDEB gnome-session-binary[727]: WARNING: Lost name on bus: org.gnome.SessionManager
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[767]: Lost or failed to acquire name org.gnome.Mutter.RemoteDesktop
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[767]: Connection to xwayland lost
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[1551]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[1551]: > Warning:          Unsupported maximum keycode 569, clipping.
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[1551]: >                   X11 cannot support keycodes above 255.
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242797 main     VBoxClient 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:23) release log
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242800 main     Log opened 2025-03-20T14:34:52.242793000Z
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242817 main     OS Product: Linux
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242821 main     OS Release: 5.10.0-32-amd64
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242825 main     OS Version: #1 SMP Debian 5.10.223-1 (2024-08-10)
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242828 main     Executable: /opt/VBoxGuestAdditions-7.1.6/bin/VBoxClient
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242828 main     Process ID: 1549
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242829 main     Package type: LINUX_64BITS_GENERIC
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242834 main      VBoxClient 7.1.6 r167084 started. Verbose level = 0
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.242964 main      rtldrNativeLoad: dlopen('libwayland-client.so', RTLD_NOW | RTLD_LOCAL) failed: libwayland-client.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.243168 main      rtldrNativeLoad: dlopen('libX11.so', RTLD_NOW | RTLD_LOCAL) failed: libX11.so: cannot open shared object file: No such file or directory
+Mar 20 15:34:52 DEBDEBDEB gnome-shell[1551]: Errors from xkbcomp are not fatal to the X server
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.255805 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.255823 main      Service: VMSVGA display assistant
+Mar 20 15:34:52 DEBDEBDEB vboxclient.desktop[1549]: 14:34:52.255865 main      Daemonizing service ...
+Mar 20 15:34:52 DEBDEBDEB systemd[1]: session-c1.scope: Succeeded.
+Mar 20 15:34:52 DEBDEBDEB systemd[1]: session-c1.scope: Consumed 4.384s CPU time.
+Mar 20 15:34:52 DEBDEBDEB evolution-calen[1316]: e_intervaltree_destroy: assertion 'E_IS_INTERVALTREE (tree)' failed
+Mar 20 15:34:52 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.freedesktop.portal.IBus' requested by ':1.79' (uid=1000 pid=1531 comm="ibus-daemon --panel disable -r --xim ")
+Mar 20 15:34:52 DEBDEBDEB gdm3: Gdm: Child process -710 was already dead.
+Mar 20 15:34:52 DEBDEBDEB systemd[691]: pulseaudio.service: Succeeded.
+Mar 20 15:34:52 DEBDEBDEB evolution-calen[1316]: e_intervaltree_destroy: assertion 'E_IS_INTERVALTREE (tree)' failed
+Mar 20 15:34:52 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Started GNOME XSettings service.
+Mar 20 15:34:52 DEBDEBDEB systemd[1085]: Reached target GNOME session X11 services.
+Mar 20 15:34:52 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Shell.Screencast'
+Mar 20 15:34:52 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar 20 15:34:52 DEBDEBDEB systemd[1]: Started Firmware update daemon.
+Mar 20 15:34:52 DEBDEBDEB gnome-software[1421]: enabled plugins: desktop-categories, fwupd, os-release, packagekit, packagekit-local, packagekit-offline, packagekit-proxy, packagekit-refine-repos, packagekit-refresh, packagekit-upgrade, packagekit-url-to-app, appstream, desktop-menu-path, hardcoded-blocklist, hardcoded-popular, malcontent, modalias, odrs, packagekit-refine, rewrite-resource, packagekit-history, provenance, systemd-updates, generic-updates, provenance-license, icons, key-colors, key-colors-metadata
+Mar 20 15:34:52 DEBDEBDEB gnome-software[1421]: disabled plugins: dpkg, dummy, repos
+Mar 20 15:34:53 DEBDEBDEB gnome-software[1421]: failed to set proxy: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._pk_2dengine_2derror_2dquark.Code3: setting the proxy failed: failed to get the uid
+Mar 20 15:34:53 DEBDEBDEB gnome-software[1421]: failed to set proxies: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._pk_2dengine_2derror_2dquark.Code3: setting the proxy failed: failed to get the uid
+Mar 20 15:34:53 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:53 DEBDEBDEB systemd[1085]: Starting Virtual filesystem metadata service...
+Mar 20 15:34:53 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gtk.vfs.Metadata'
+Mar 20 15:34:53 DEBDEBDEB systemd[1085]: Started Virtual filesystem metadata service.
+Mar 20 15:34:55 DEBDEBDEB PackageKit: refresh-cache transaction /81_bdaddaac from uid 1000 finished with success after 1056ms
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Builder.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Calculator.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.clocks.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Dictionary.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Documents.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Evince/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.gedit.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Maps.desktop/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: adding wildcard app */*/*/*/org.gnome.Weather/* to plugin cache
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: Only 0 apps for recent list, hiding
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: hiding category games featured applications: found only 0 to show, need at least 9
+Mar 20 15:34:55 DEBDEBDEB gnome-software[1421]: hiding category productivity featured applications: found only 0 to show, need at least 9
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Contacts.SearchProvider' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Documents' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Nautilus' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Calculator.SearchProvider' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Calendar' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.Characters.BackgroundService' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.clocks' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating service name='org.gnome.seahorse.Application' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.34' (uid=1000 pid=1248 comm="/usr/bin/gnome-shell ")
+Mar 20 15:34:55 DEBDEBDEB systemd[1085]: Created slice app-org.gnome.Terminal.slice.
+Mar 20 15:34:55 DEBDEBDEB systemd[1085]: Starting GNOME Terminal Server...
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.seahorse.Application'
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.clocks'
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[389]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.93' (uid=1000 pid=1953 comm="/usr/bin/gnome-calendar --gapplication-service ")
+Mar 20 15:34:56 DEBDEBDEB systemd[1]: Starting Time & Date Service...
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Characters.BackgroundService'
+Mar 20 15:34:56 DEBDEBDEB gnome-calculato[1950]: search-provider.vala:117: Failed to spawn Calculator: Child process killed by signal 9
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Contacts.SearchProvider'
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Nautilus'
+Mar 20 15:34:56 DEBDEBDEB gnome-terminal-server[1948]: Display does not support owner-change; copy/paste will be broken!
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Terminal'
+Mar 20 15:34:56 DEBDEBDEB systemd[1085]: Started GNOME Terminal Server.
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[389]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 20 15:34:56 DEBDEBDEB systemd[1]: Started Time & Date Service.
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Calendar'
+Mar 20 15:34:56 DEBDEBDEB dbus-daemon[1109]: [session uid=1000 pid=1109] Successfully activated service 'org.gnome.Documents'
+Mar 20 15:34:56 DEBDEBDEB systemd[1085]: Started Application launched by gnome-shell.
+Mar 20 15:34:56 DEBDEBDEB gnome-calendar[1953]: Failed to open/connect to calendar: Unable to connect to “Personal”: Cannot open calendar: Cannot parse ISC file “/home/vboxuser/.local/share/evolution/calendar/system/calendar.ics”
+Mar 20 15:34:56 DEBDEBDEB evolution-calen[1316]: e_intervaltree_destroy: assertion 'E_IS_INTERVALTREE (tree)' failed
+Mar 20 15:34:57 DEBDEBDEB systemd[1085]: Started VTE child process 2066 launched by gnome-terminal-server process 1948.
+Mar 20 15:34:57 DEBDEBDEB systemd[1085]: app-gnome-org.gnome.Terminal-2030.scope: Succeeded.
+Mar 20 15:34:57 DEBDEBDEB PackageKit: resolve transaction /82_deabcdac from uid 1000 finished with success after 1700ms
+Mar 20 15:34:57 DEBDEBDEB PackageKit: resolve transaction /83_dcaeeddd from uid 1000 finished with success after 144ms
+Mar 20 15:34:57 DEBDEBDEB gnome-software[1421]: FIXME: Unknown progress handling is not yet implemented for GsProgressButton
+Mar 20 15:34:57 DEBDEBDEB gnome-software[1421]: FIXME: Unknown progress handling is not yet implemented for GsProgressButton
+Mar 20 15:34:57 DEBDEBDEB gnome-software[1421]: FIXME: Unknown progress handling is not yet implemented for GsProgressButton
+Mar 20 15:34:57 DEBDEBDEB gnome-software[1421]: FIXME: Unknown progress handling is not yet implemented for GsProgressButton
+Mar 20 15:34:57 DEBDEBDEB gnome-software[1421]: automatically prevented from changing kind on system/package/*/generic/org.gphoto.libgphoto2/* from generic to unknown!
+Mar 20 15:34:57 DEBDEBDEB PackageKit: resolve transaction /84_dcdeebea from uid 1000 finished with success after 180ms
+Mar 20 15:34:58 DEBDEBDEB PackageKit: get-updates transaction /85_bbdbbede from uid 1000 finished with success after 330ms
+Mar 20 15:34:58 DEBDEBDEB PackageKit: resolve transaction /86_dbacddab from uid 1000 finished with success after 178ms
+Mar 20 15:34:59 DEBDEBDEB PackageKit: search-file transaction /87_dbabcdac from uid 1000 finished with success after 772ms
+Mar 20 15:34:59 DEBDEBDEB PackageKit: resolve transaction /88_aeddbbbb from uid 1000 finished with success after 211ms
+Mar 20 15:34:59 DEBDEBDEB PackageKit: get-details transaction /89_dbbceaac from uid 1000 finished with success after 174ms
+Mar 20 15:34:59 DEBDEBDEB pulseaudio[1101]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 20 15:35:00 DEBDEBDEB systemd[1085]: tracker-extract.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: Stopping User Manager for UID 116...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped target Main User Target.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping D-Bus User Message Bus...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Virtual filesystem service...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Virtual filesystem service - digital camera monitor...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Virtual filesystem service - disk device monitor...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Multimedia Service...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Tracker file system data miner...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopping Tracker metadata database store and lookup manager...
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: run-user-116-gvfs.mount: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gvfs-goa-volume-monitor.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gvfs-mtp-volume-monitor.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gvfs-gphoto2-volume-monitor.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Virtual filesystem service - digital camera monitor.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: run-user-116-gvfs.mount: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB pipewire-media-session[724]: error id:0 seq:158 res:-32 (Broken pipe): connection error
+Mar 20 15:35:02 DEBDEBDEB systemd[1085]: run-user-116-gvfs.mount: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB tracker-miner-fs[709]: Received signal:15->'Terminated'
+Mar 20 15:35:02 DEBDEBDEB tracker-store[818]: Received signal:15->'Terminated'
+Mar 20 15:35:02 DEBDEBDEB tracker-store[818]: OK
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gvfs-afc-volume-monitor.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: pipewire.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Multimedia Service.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gvfs-udisks2-volume-monitor.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Virtual filesystem service - disk device monitor.
+Mar 20 15:35:02 DEBDEBDEB tracker-miner-f[709]: Error while sending AddMatch() message: The connection is closed
+Mar 20 15:35:02 DEBDEBDEB tracker-miner-f[709]: Error while sending AddMatch() message: The connection is closed
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: tracker-store.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Tracker metadata database store and lookup manager.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gvfs-daemon.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Virtual filesystem service.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: dbus.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped D-Bus User Message Bus.
+Mar 20 15:35:02 DEBDEBDEB tracker-miner-fs[709]: OK
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: tracker-miner-fs.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped Tracker file system data miner.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped target Basic System.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped target Paths.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped target Sockets.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Stopped target Timers.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: dbus.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed D-Bus User Message Bus Socket.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: dirmngr.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed GnuPG network certificate management daemon.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gpg-agent-browser.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gpg-agent-extra.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gpg-agent-ssh.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: gpg-agent.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: pipewire.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed Multimedia System.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: pk-debconf-helper.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed debconf communication socket.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: pulseaudio.socket: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Closed Sound System.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Removed slice User Application Slice.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Reached target Shutdown.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: systemd-exit.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Finished Exit the Session.
+Mar 20 15:35:02 DEBDEBDEB systemd[691]: Reached target Exit the Session.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: user@116.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: Stopped User Manager for UID 116.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: Stopping User Runtime Directory /run/user/116...
+Mar 20 15:35:02 DEBDEBDEB systemd[1085]: run-user-116.mount: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: run-user-116.mount: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: user-runtime-dir@116.service: Succeeded.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: Stopped User Runtime Directory /run/user/116.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: Removed slice User Slice of UID 116.
+Mar 20 15:35:02 DEBDEBDEB systemd[1]: user-116.slice: Consumed 5.291s CPU time.
+Mar 20 15:35:21 DEBDEBDEB systemd[1]: systemd-localed.service: Succeeded.
+Mar 20 15:35:21 DEBDEBDEB systemd[1]: systemd-hostnamed.service: Succeeded.
+Mar 20 15:35:24 DEBDEBDEB PackageKit: get-update-detail transaction /90_ceeecbce from uid 1000 finished with success after 25174ms
+Mar 20 15:35:24 DEBDEBDEB PackageKit: get-details transaction /91_bcddabab from uid 1000 finished with success after 206ms
+Mar 20 15:35:26 DEBDEBDEB systemd[1]: systemd-timedated.service: Succeeded.
+Mar 20 15:35:34 DEBDEBDEB tracker-store[1261]: OK
+Mar 20 15:35:34 DEBDEBDEB systemd[1085]: tracker-store.service: Succeeded.
+Mar 20 15:35:36 DEBDEBDEB geoclue[885]: Service not used for 60 seconds. Shutting down..
+Mar 20 15:35:36 DEBDEBDEB systemd[1]: geoclue.service: Succeeded.
+Mar 20 15:35:38 DEBDEBDEB systemd[1]: realmd.service: Succeeded.
+Mar 20 15:35:54 DEBDEBDEB PackageKit: refresh-cache transaction /92_bccbcecd from uid 1000 finished with success after 589ms
+Mar 20 15:35:54 DEBDEBDEB PackageKit: get-updates transaction /93_caadcaae from uid 1000 finished with success after 671ms
+Mar 20 15:35:55 DEBDEBDEB PackageKit: get-updates transaction /94_caeadddb from uid 1000 finished with success after 279ms
+Mar 20 15:35:55 DEBDEBDEB gnome-software[1421]: unhandled info state installing
+Mar 20 15:35:55 DEBDEBDEB gnome-software[1421]: unhandled info state installing
+Mar 20 15:35:55 DEBDEBDEB gnome-software[1421]: unhandled info state installing
+Mar 20 15:35:55 DEBDEBDEB gnome-software[1421]: unhandled info state installing
+Mar 20 15:35:55 DEBDEBDEB gnome-software[1421]: unhandled info state installing
+Mar 20 15:35:55 DEBDEBDEB gnome-software[1421]: unhandled info state installing
+Mar 20 15:35:55 DEBDEBDEB PackageKit: get-updates transaction /95_dcbbebdb from uid 1000 finished with success after 308ms
+Mar 20 15:35:55 DEBDEBDEB PackageKit: new update-packages transaction /96_cceebaed scheduled from uid 1000
+Mar 20 15:35:56 DEBDEBDEB PackageKit: update-packages transaction /96_cceebaed from uid 1000 finished with success after 1046ms
+Mar 20 15:35:58 DEBDEBDEB PackageKit: get-updates transaction /97_adbcbbac from uid 1000 finished with success after 301ms
