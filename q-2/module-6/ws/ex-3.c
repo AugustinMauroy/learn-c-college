@@ -45,12 +45,14 @@ void saisieListe(Chainon** ppDeb) {
     }
 }
 
-void libererListe(Chainon* pChainon) {
-    Chainon* pTemp;
-    while (pChainon != NULL) {
-        pTemp = pChainon;
-        pChainon = pChainon->pSuiv;
-        free(pTemp);
+void libererListe(Chainon* pListe) {
+    Chainon* pCourant = pListe;
+    Chainon* pASupprimer = NULL;
+
+    while (pCourant != NULL) {
+        pASupprimer = pCourant;
+        pCourant = pCourant->pSuiv;
+        free(pASupprimer);
     }
 }
 

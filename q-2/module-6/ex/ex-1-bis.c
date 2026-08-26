@@ -103,8 +103,10 @@ void afficheListe(ChainonCreateur* pListe) {
 
 void videListe(ChainonCreateur* pListe){
     ChainonCreateur* pCourant = pListe;
+    ChainonCreateur* pASupprimer = NULL;
+
     while (pCourant != NULL) {
-        ChainonCreateur* pASupprimer = pCourant;
+        pASupprimer = pCourant;
         pCourant = pCourant->pSuiv;
         free(pASupprimer);
     }
